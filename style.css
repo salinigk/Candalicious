@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: rgb(211, 187, 238);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav a{
+    float: left;
+    color: rgb(143, 102, 240);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.candy_background{
+    background-image: url("https://burst.shopifycdn.com/photos/marshmallow-candy-texture.jpg?width=1000&format=pjpg&exif=0&iptc=0") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.nav a:hover{
+
+    color: black;
+}
+
+.nav a.active{
+    background-color: darkgreen;
+    color: antiquewhite;
+}
+.nav .icon{
+    display: none;
+}
+
+.candy_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color:rgb(17, 91, 151);
+    text-align: center;
+}
+
+.candy_content h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.candy_content h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.candy_content p{
+    font-size: 20px;    
+    margin-bottom: 20px;
+}
+
+.candy_content button{
+    
+        padding: 10px 25px;
+        font-size: 20px;
+        border: 2px solid rgb(255, 202, 9);
+        background-color: transparent;
+        color: rgb(245, 141, 141);
+        cursor: pointer;
+}
+.candy_content button:hover{
+    background-color: rgb(245, 171, 245);
+    color: rgb(210, 250, 159);
+}
+
+about_content{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.about_content .about_text{
+    padding: 40px;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: rgb(131, 9, 245);
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20230910/pngtree-many-small-candy-hearts-around-a-heart-image_13189360.png");
+}
+
+.about_content .about_text h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.about_content .about_text p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.contact_content .contact_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    background: linear-gradient(rgba(231, 144, 243, 0.5), rgba(246, 239, 247, 0.863));
+}
+
+.contact_content .contact_text h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.contact_content .contact_text p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact_content .contact_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    background: linear-gradient(rgba(142, 241, 111, 0.5), rgba(244, 145, 255, 0.5));
+}
+
+
+
+.contact_content .contact_form input{
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid rgb(255, 202, 9);
+    background-color: transparent;
+    color: rgb(232, 210, 210);
+}
+
+.contact_content .contact_form textarea{
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid rgb(255, 202, 9);
+    background-color: transparent;
+    color: rgb(232, 210, 210);
+}
+
+.contact_content .contact_form button{
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 2px solid rgb(255, 202, 9);
+    background-color: transparent;
+    color: rgb(252, 7, 7);
+    cursor: pointer;
+}
+
+.contact_content .contact_form button:hover{
+    background-color:  rgb(255, 202, 9);;
+    color: black;
+}
+
+
+
+
+footer{
+    background-color: #efccff;
+    color: #a75efa;
+    text-align: center;
+    padding: 20px;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+}
+
+
